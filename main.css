@@ -1,0 +1,164 @@
+html, body{
+	margin: 0;
+	width: 100%;
+	background-color: #00051F;
+}
+
+.hide{
+	visibility: hidden;
+}
+
+.main-container{
+	width: 100%;
+	height: 1080px;
+	margin-top: 30%;
+	position: relative;
+	margin-bottom: -555px;
+}
+
+.img-background{
+	width: 100%;
+	height: auto;
+}
+
+.img-rocket{
+	width: 40%;
+	margin-top: -35%;
+	margin-left: 55%;
+	position: relative;
+	animation: 10050ms pulsate infinite alternate ease-in-out;
+}
+
+i{
+	font-size: 22px;
+	color: #FD7744;
+	float: right;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.fa-slash{
+	color: white;
+}
+
+.fa-moon{
+	color: white;
+}
+
+.temperature{
+	color: #FD7744;
+	float: right;
+	display: inline-block;
+}
+
+.kilometers{
+	color: #FD7744;
+	float: right;
+	display: inline-block;
+}
+
+.container1{
+	border-color: #FD7744;
+	border-style: solid;
+	border-radius: 6px;
+	padding: 60px;
+	margin: 50px;
+
+}
+
+.container2{
+	border-color: #FD7744;
+	border-style: solid;
+	border-radius: 6px;
+	padding: 60px;
+	margin: 50px;
+	margin-top: -5%;
+}
+
+.container3{
+	border-color: #FD7744;
+	border-style: solid;
+	border-radius: 6px;
+	padding: 60px;
+	margin: 50px;
+	margin-top: -5%;
+}
+
+h1{
+	width: 100%;
+	margin-top: -20%;
+	position: absolute;
+	font-size: 8vw;
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+	color: #FFE4B5;
+	font-family: 'Helvetica Neue', sans-serif;
+	letter-spacing: 5px;
+}
+
+h2{
+	width: 100%;
+	margin-top: 35%;
+	position: absolute;
+	font-size: 8vw;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-family: 'Helvetica Neue', sans-serif;
+	letter-spacing: 5px;
+}
+
+p{
+	font-size: 17px;
+	font-weight: normal;
+	font-style: italic;
+	text-align: left;
+	color: white;
+	font-family: 'Helvetica Neue', sans-serif;
+	letter-spacing: 5px;
+	display: inline-block;
+}
+
+#clock{
+	width: 100%;
+	position: absolute;
+	font-size: 9vw;
+	color: white;
+	text-align: center;
+	font-family: 'Helvetica Neue thin', sans-serif;
+	margin-top: 50%;
+}
+
+#date{
+	width: 100%;
+	margin-top: 65%;
+	position: absolute;
+	font-size: 4vw;
+	font-weight: normal;
+	text-align: center;
+	color: white;
+	font-family: 'Helvetica Neue', sans-serif;
+	letter-spacing: 5px;
+}
+
+@keyframes pulsate{
+	0%{
+		opacity: 1;
+		top: -5%;
+	}
+
+	100%{
+		opacity: 0;
+		top: -40%;
+	}
+}
+
+  /* Responsive Web Pages */
+
+@media only screen and (max-width:601px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
